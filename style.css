@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: blueviolet;
+    justify-content: center;
+
+    flex-direction: column;
+    background-color: aqua;
+
+    height: 100vh;
+    display: flex;
+}
+
+
+#btn {
+
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: aqua;
+
+}
+#bildirimler{
+position: fixed;
+bottom:20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: absolute;
+right: 0;
+
+}
